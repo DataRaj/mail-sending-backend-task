@@ -1,0 +1,31 @@
+{
+  "name": "task-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "intex.ts",
+  "scripts": {
+    "test": "tsc index.ts && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dataraj/mail-sending-backend-task.git"
+  },
+  "author": "dattaraj dhadas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dataraj/mail-sending-backend-task/issues"
+  },
+  "homepage": "https://github.com/dataraj/mail-sending-backend-task#readme",
+  "dependencies": {
+    "@types/node": "^20.12.12",
+    "csv-parse": "^5.5.6",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
